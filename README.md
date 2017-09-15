@@ -285,5 +285,3 @@ SJDBC 更新
 ```
 update order SET order_id=?,order_type=0,cust_id=10,cust_type=1,cust_email='dtest002@dangdang.com' where id=?;
 ```
-
-[this is atest](https://github.com/yue530tom/test/blob/master/dstatdemo1.png)
