@@ -107,9 +107,9 @@
 |jdbc单库单表查询|7|493|
 |sharding1.5.2单库单表查询|8|470|
 
-
+TPS展示
 ![TPS](https://github.com/yue530tom/test/blob/master/img/b-SdbSt-query-tps.png)
-
+RT展示
 ![RT](https://github.com/yue530tom/test/blob/master/img/b-SdbSt-query-rt.png)
 ### 单库单表更新
 
@@ -118,9 +118,9 @@
 |jdbc单库单表更新|2|6682|
 |sharding1.5.2单库单表更新|3|6303|
 
-
+TPS展示
 ![TPS](https://github.com/yue530tom/test/blob/master/img/b-SdbSt-update-tps.png)
-
+RT展示
 ![RT](https://github.com/yue530tom/test/blob/master/img/b-SdbSt-update-rt.png)
 ### 单库单表插入
 
@@ -129,8 +129,9 @@
 |jdbc单库单表插入|2|6855|
 |sharding1.5.2单库单表插入|2|6375|
 
+TPS展示
 ![TPS](https://github.com/yue530tom/test/blob/master/img/b-SdbSt-insert-tps.png)
-
+RT展示
 ![RT](https://github.com/yue530tom/test/blob/master/img/b-SdbSt-insert-rt.png)
 ## 极限测试
 ### 单库单表与两库各一表查询
@@ -141,8 +142,9 @@
 |sharding1.5.2单库单表查询|7|1600|
 |sharding1.5.2两库各1表查询|13|2944|
 
+TPS展示
 ![TPS](https://github.com/yue530tom/test/blob/master/img/l-SdbSt-MdbSt-query-tps.png)
-
+RT展示
 ![RT](https://github.com/yue530tom/test/blob/master/img/l-SdbSt-MdbSt-query-rt.png)
 ### 单库两表与两库各两表查询
 
@@ -152,8 +154,9 @@
 |sharding1.5.2单库两表查询|7|1732|
 |sharding1.5.2两库各两表查询|10|3331|
 
+TPS展示
 ![TPS](https://github.com/yue530tom/test/blob/master/img/l-SdbMt-MdbMt-query-tps.png)
-
+RT展示
 ![RT](https://github.com/yue530tom/test/blob/master/img/l-SdbMt-MdbMt-query-rt.png)
 ### 单库单表更新与两库各一表更新
 
@@ -163,8 +166,9 @@
 |sharding1.5.2单库单更新|7|9263|
 |sharding1.5.2两库各1表更新|4|18561|
 
+TPS展示
 ![TPS](https://github.com/yue530tom/test/blob/master/img/l-SdbSt-MdbSt-update-tps.png)
-
+RT展示
 ![RT](https://github.com/yue530tom/test/blob/master/img/l-SdbSt-MdbSt-update-rt.png)
 ### 单库两表与两库各2表更新
 
@@ -174,8 +178,9 @@
 |sharding1.5.2单库两表更新|7|8941|
 |sharding1.5.2两库各两表更新|5|17997|
 
+TPS展示
 ![TPS](https://github.com/yue530tom/test/blob/master/img/l-SdbMt-MdbMt-update-tps.png)
-
+RT展示
 ![RT](https://github.com/yue530tom/test/blob/master/img/l-SdbMt-MdbMt-update-rt.png)
 ### 单库单表插入与两库各一表插入
 
@@ -185,8 +190,9 @@
 |sharding1.5.2单库单表插入|5|10882|
 |sharding1.5.2两库各1表插入|4|21414|
 
+TPS展示
 ![TPS](https://github.com/yue530tom/test/blob/master/img/l-SdbSt-MdbSt-insert-tps.png)
-
+RT展示
 ![RT](https://github.com/yue530tom/test/blob/master/img/l-SdbSt-MdbSt-insert-rt.png)
 ### 单库两表与两库各2表插入
 
@@ -196,8 +202,9 @@
 |sharding1.5.2单库两表插入|5|10849|
 |sharding1.5.2两库各两表插入|4|23043|
 
+TPS展示
 ![TPS](https://github.com/yue530tom/test/blob/master/img/l-SdbMt-MdbMt-insert-tps.png)
-
+RT展示
 ![RT](https://github.com/yue530tom/test/blob/master/img/l-SdbMt-MdbMt-insert-rt.png)
 ### SJDBC1.4.2与1.5.2两库各一表对比
 
@@ -207,8 +214,9 @@
 |更新|18454|18561|100.58%|
 |插入|21045|21414|101.75%|
 
+TPS展示
 ![TPS](https://github.com/yue530tom/test/blob/master/img/152vs142tps.png)
-
+RT展示
 ![RT](https://github.com/yue530tom/test/blob/master/img/152vs142rt.png)
 ## 附录
 本次测试，共使用两台数据库服务器，每台服务器上分别有1库，每个库中分别有2个主表，2个子表
