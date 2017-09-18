@@ -289,3 +289,4 @@ SJDBC 更新
 ```
 update order SET order_id=?,order_type=0,cust_id=10,cust_type=1,cust_email='dtest002@dangdang.com' where id=?;
 ```
+![TPS](img/152vs142tps.png)
